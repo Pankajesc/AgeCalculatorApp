@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+  margin: auto auto;
+  width: 30%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label, p{
+  font-weight: bold;
+}
+
+.dob{
+  width: 60%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.button{
+  background-color: dodgerblue;
+  color: white;
+  padding: 6px 10px;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+}
